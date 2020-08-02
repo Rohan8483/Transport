@@ -1,0 +1,22 @@
+<!-- <p>admin works!</p>
+{{res | json }} -->
+
+
+<table class="table">
+    <tr>
+        <th>source</th>
+        <th>Destination</th>
+        <th>Date</th>
+        <th>Mobile No</th>
+        <th>Description</th>
+    </tr>
+   <ng-container *ngFor="let e of res" >
+        <tr *ngIf="e">
+            <td>{{e.src}}</td> 
+            <td>{{e.desti}}</td>
+            <td>{{e.date}}</td>
+            <td>{{e.mobileno}}</td>
+            <td>{{e.descri}}</td>
+        </tr>
+   </ng-container>
+</table>

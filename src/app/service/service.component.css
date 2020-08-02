@@ -1,0 +1,29 @@
+
+/* .div {
+    border: 5px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 1500px;
+    margin-left: 80px;
+    background-color: lightblue;
+  } */
+/* 
+  .center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  } */
+
+  .table,tr,td,th{
+    border: 1px  solid black;
+  }
+  .blue-square-container{
+    text-align: center;
+  }
+  .blue-square{
+    background-color: chocolate;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+  }
